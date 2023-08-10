@@ -107,26 +107,6 @@ python manage.py runserver
 
 
 
-## Deployment
 
-You can use nginx + gunicorn (Linux) or mod_wsgi + Apache (Windows) to deploy this application. 
+## * Sử dụng docker container:*
 
-Don't forget change DEBUG option to False in settings.py and collect all static files to one place:
-
-        python manage.py collectstatic
-
-
-
-## *To-Do:*
-
-* Create DockerFile for fast deployment
-* ~Add public registration and replace login template~
-* Add support for different dialogues (it's only one room for now)
-* Optimise storing messages and context of dialogue (it's just adding previous messages to current prompt)
-* Improve user interface
-
-
-
-[demo]: https://chat.w3b.dedyn.io/chat
-[image]: https://user-images.githubusercontent.com/104368253/226906808-c055a331-4d33-44db-817b-27b47e191d7d.png
-[django-docs]: https://docs.djangoproject.com/en/4.1/ref/databases/
