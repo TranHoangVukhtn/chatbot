@@ -1,19 +1,19 @@
 # [ChatBot]
 
 
-**Simple chatbot implementation using OpenAI API**
+**Ứng dụng chatbot sử dụng OpenAI API**
 
 ---
 
-## Overview
+## Tổng quan
 
 
-What's ready?
 
-* Understanding and responding to any text prompt
-* Storing messages in database and remembering context of dialogue
-* Responsive user interface
-* This applications provides basic API, which means you can customize frontend as much as you want without changing logic of backend
+
+* Hiểu và trả lời bất kỳ văn bản, promt được truyền vào
+* Lưu trữ tin nhắn của user nhập trong cơ sở dữ liệu và ghi nhớ bối cảnh đối thoại của chatbot
+* Giao diện người dùng đáp ứng
+* Chuẩn hóa API, giao diện Frontend có thể customize lại
 
 
 
@@ -31,13 +31,13 @@ What's ready?
 * python-dotenv
 * openai
 
-I **highly recommend** using the latest patch release of all these packages.
+I **highly recommend** Sử dụng phiên bản mới nhất của các ứng dụng
 
 ## Installation
 
 --> First of all, clone this repository:
 
-    git clone https://github.com/Rayzaleew/chatbot
+    git clone https://github.com/TranHoangVukhtn/chatbot/
     
 --> Move into the directory where we have the project files :
 
