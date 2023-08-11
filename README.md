@@ -1,14 +1,11 @@
-# [ChatBot]
+# [Ứng dụng ChatBot - Project xử lý ngôn ngữ tự nhiên - K32 Khoa học dữ liệu]
 
 
 **Ứng dụng chatbot sử dụng OpenAI API**
 
 ---
 
-## Tổng quan
-
-
-
+## Nội dung chính
 
 * Hiểu và trả lời bất kỳ văn bản, promt được truyền vào
 * Lưu trữ tin nhắn của user nhập trong cơ sở dữ liệu và ghi nhớ bối cảnh đối thoại của chatbot
@@ -35,27 +32,27 @@ I **highly recommend** Sử dụng phiên bản mới nhất của các ứng d�
 
 ## Installation
 
---> First of all, clone this repository:
+--> Thực hiện clone source với đường dẫn sau (dùng git để thực hiện, hoặc tải trực tiếp xuống):
 
     git clone https://github.com/TranHoangVukhtn/chatbot/
     
---> Move into the directory where we have the project files :
+--> Di chuyển vào thư mục nơi chứa prject tệp dự án :
 
     cd chatbot
     
---> Create a virtual environment :
+--> Tạo enviroment cho project :
 ```bash
-# Let's install virtualenv first
+# tạo vùng virtualenv
 pip install virtualenv
 
-# Then we create our virtual environment
+# Sau đó tạo vùng enviroment 
 virtualenv env #or python -m virtualenv if you're using Windows
 
 ```
 
 --> Activate the virtual environment :
 ```bash
-env\scripts\activate #or env\Scripts\activate.bat if you're using Windows
+env\scripts\activate #or env\Scripts\activate.bat (Nếu dùng windows)
 
 ```
 
