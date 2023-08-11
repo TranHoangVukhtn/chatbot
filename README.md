@@ -2,7 +2,8 @@
 
 
 **Ứng dụng chatbot sử dụng OpenAI API**
-
+** Học viên: Trần Hoàng Vũ (22C01027) **
+** Học viên: Bùi Tất Hiệp (22C01007) **
 ---
 
 ## Nội dung chính
