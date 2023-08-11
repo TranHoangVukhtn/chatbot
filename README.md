@@ -2,11 +2,12 @@
 
 
 **Ứng dụng chatbot sử dụng OpenAI API**
-** Học viên: Trần Hoàng Vũ (22C01027) **
-** Học viên: Bùi Tất Hiệp (22C01007) **
+
 ---
 
 ## Nội dung chính
+** Học viên: Trần Hoàng Vũ (22C01027) **
+** Học viên: Bùi Tất Hiệp (22C01007) **
 
 * Hiểu và trả lời bất kỳ văn bản, promt được truyền vào
 * Lưu trữ tin nhắn của user nhập trong cơ sở dữ liệu và ghi nhớ bối cảnh đối thoại của chatbot
