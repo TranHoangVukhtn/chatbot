@@ -62,29 +62,30 @@ pip install -r requirements.txt
 
 ```
 
-## Database configuration
+## Cấu hình Database
 
---> Change name of the chatbot/.env.sample file to chatbot/.env and specify data of your database. For example:
+For example:
 ```
 SECRET_KEY = 'some-secret-key' 
-OPENAI_API_KEY = 'YOUR-API-KEY' #specify your OpenAI API key, that you can get on https://platform.openai.com/account/api-keys
+OPENAI_API_KEY = 'YOUR-API-KEY' # OPENAPI Key
+https://platform.openai.com/account/api-keys
 
 #DATABASES
 ENGINE   = 'django.db.backends.sqlite3' 
 NAME     = 'chat.db'
 
 ```
-*For detailed explanation of how to connect to specific SQL database visit [Django documentation][django-docs]* 
+*Để được giải thích chi tiết về cách kết nối với cơ sở dữ liệu SQL cụ thể, hãy truy cập [Django documentation][django-docs]* 
 
 
---> Apply migrations to your database:
+--> Thực hiện trên terminal câu lệnh migrations xuống database:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 
 ```
 
---> Create superuser:
+--> Tạo superuser trên admin:
 
     python manage.py createsuperuser
     
@@ -94,16 +95,21 @@ python manage.py migrate
 
 ## Running development server
 
---> To run the ChatBot, use :
+--> Để run project ChatBot, thực hiện :
 ```bash
 python manage.py runserver
 
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+> ⚠ Application sẽ start với http://127.0.0.1:8000/
 
 
 
 
 ## * Sử dụng docker container:*
+Cài đặt docker engine với đường dẫn sau:https://www.docker.com
+
+1. Docker images (chatbot-master_nlp)
+
+2. docker run -p 8000:8000 chatbot-master_nlp
 
